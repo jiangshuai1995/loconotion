@@ -7,7 +7,7 @@ name = "Notion Test Site"
 
 # the notion.so page to being parsing from. This page will become the index.html
 # of the generated site, and loconotation will parse all sub-pages present on the page
-page = "https://www.notion.so/Loconotion-Example-Page-03c403f4fdc94cc1b315b9469a8950ef"
+page = "https://jiangshuai1995.notion.site/ba4a56ed974f4aeba083a37d8a3c896e?v=febeae3056154986b4d8b09f3ae1791b&pvs=4"
 
 ## Global Site Settings ##
 # this [site] table defines override settings for the whole site
