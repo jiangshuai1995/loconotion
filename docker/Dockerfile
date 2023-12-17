@@ -7,7 +7,7 @@ RUN apt-get install -y libgconf-2-4 wget xvfb unzip
 
 # Install Chrome (compatible version with chromedriver below)
 ARG CHROME_VERSION="current"
-RUN wget --no-verbose -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+RUN wget --no-verbose -O /tmp/chrome.deb https://www.slimjet.com/chrome/download-chrome.php\?file\=files%2F90.0.4430.72%2Fgoogle-chrome-stable_current_amd64.deb \
   && apt install -y /tmp/chrome.deb \
   && rm /tmp/chrome.deb
 
